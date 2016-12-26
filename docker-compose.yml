@@ -1,0 +1,10 @@
+version: '2'
+services:
+  tile:
+    image: homme/openstreetmap-tiles:latest
+    volumes:
+      - './db:/var/lib/postgresql'
+      - './import:/data'
+    ports:
+      - '84:80'
+    command: 'startdb startservices'
