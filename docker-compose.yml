@@ -5,6 +5,7 @@ services:
     volumes:
       - '/var/lib/postgresql'
       - './import:/data'
+      - './osm.xml:/usr/local/src/mapnik-style/osm.xml'
     ports:
       - '84:80'
     command: 'startdb startservices'
