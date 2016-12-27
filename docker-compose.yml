@@ -3,7 +3,7 @@ services:
   tile:
     image: homme/openstreetmap-tiles:latest
     volumes:
-      - './db:/var/lib/postgresql'
+      - '/var/lib/postgresql'
       - './import:/data'
     ports:
       - '84:80'
