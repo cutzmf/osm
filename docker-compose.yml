@@ -7,7 +7,7 @@ services:
       - './import:/data'
       - './osm.xml:/usr/local/src/mapnik-style/osm.xml'
       - './inc/:/usr/local/src/mapnik-style/inc/'
-      - './png/:/usr/local/src/mapnik-style/symbol/png/'
+      - './png/:/usr/local/src/mapnik-style/symbols/png/'
     ports:
       - '84:80'
     command: 'startdb startservices'
