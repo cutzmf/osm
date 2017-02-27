@@ -23,7 +23,8 @@
 <Style name="coast-poly">
     <Rule>
       &maxscale_zoom10;
-      <PolygonSymbolizer fill="#f2efe9"/>
+<!--      <PolygonSymbolizer fill="#ff00ff"/> -->
+    <PolygonPatternSymbolizer width="256" height="256" type="png" file="&symbols;/png/grass_tile.png"/>
     </Rule>
 </Style>
   <!-- BUILTUP VMAP0 -->

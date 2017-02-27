@@ -27,7 +27,7 @@
     <Rule>
       <Filter>[building] = 'INT-light'</Filter>
       &maxscale_zoom12;
-      <PolygonSymbolizer fill-opacity="0.7" fill="#bca9a9"/>
+      <PolygonSymbolizer fill-opacity="0.3" fill="#bca9a9"/>
     </Rule>
     <Rule>
       <Filter>[building] != 'INT-light' and [building] != ''</Filter>
