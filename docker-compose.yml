@@ -1,6 +1,7 @@
 version: '2'
 services:
   tile:
+    restart: unless-stopped
     image: homme/openstreetmap-tiles:latest
     volumes:
       - '/var/lib/postgresql'
