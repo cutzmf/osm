@@ -27,7 +27,7 @@
     <Rule>
       <Filter>[building] = 'INT-light'</Filter>
       &maxscale_zoom12;
-      <PolygonSymbolizer fill-opacity="0.3" fill="#bca9a9"/>
+      <PolygonSymbolizer fill-opacity="0.9" fill="#87f1c3"/>
     </Rule>
     <Rule>
       <Filter>[building] != 'INT-light' and [building] != ''</Filter>
@@ -37,7 +37,7 @@
     <Rule>
       <Filter>[building] != 'INT-light' and [building] != ''</Filter>
       &maxscale_zoom16;
-      <LineSymbolizer stroke="#330066" stroke-width="0.2"/>
+      <LineSymbolizer stroke="#87f1c3" stroke-width="0.2"/>
     </Rule>
     <Rule>
       <Filter>[aeroway] = 'terminal'</Filter>

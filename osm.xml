@@ -958,7 +958,7 @@
 </Style>
 <Style name="minor-roads-casing">
     <Rule>
-      <LineSymbolizer stroke-linejoin="round" stroke="#5a35c6" stroke-opacity="0.8" stroke-width="12"/>
+      <LineSymbolizer stroke-linejoin="round" stroke="#4d907c" stroke-opacity="1.0" stroke-width="12"/>
     </Rule>
 </Style>
 <Style name="minor-roads-fill-links">
@@ -3103,6 +3103,8 @@
 
 &layer-shapefiles; 
 &layer-landcover;
+&layer-water;
+&layer-water_features;
 <Layer name="minor-roads-casing" status="on" srs="&osm2pgsql_projection;">
     <StyleName>minor-roads-casing-links</StyleName>
     <StyleName>minor-roads-casing</StyleName>
